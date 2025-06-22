@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-#Resource    youtubeResource.resource
+Resource    youtubeResource.resource
 Suite Setup    Open YouTube
 Suite Teardown    Close Browser
 
