@@ -4,11 +4,6 @@ Library    SeleniumLibrary
 Suite Setup    Open YouTube
 Suite Teardown    Close Browser
 
-*** Variables ***
-${URL}           https://www.youtube.com
-${BROWSER}       chrome
-${SearchFor}     Happy birthday sing by Pranjal
-
 *** Test Cases ***
 Youtube
     [Tags]    PlayVideo
